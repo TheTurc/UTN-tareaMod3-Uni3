@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    background-image: url(img/05.jpg);
+    overflow: hidden;
+    height: 100vh;
+    filter: blur(2px);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(213, 215, 218);
+    font-weight: bold;
+    font-family: 'Spartan', sans-serif;
+}
+.title h1 {
+    padding: 0 8%;
+    font-size: 70px;
+    border-bottom: 2px solid rgb(213, 215, 218);
+    padding: 20px;
+    text-shadow: 4px 4px 3px rgba(126,126,126,0.6);
+}
+.animate__fadeInDown {
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+.title a {
+    text-decoration: none;
+    color: rgb(213, 215, 218);
+}
