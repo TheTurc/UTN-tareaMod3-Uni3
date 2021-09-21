@@ -54,7 +54,7 @@ body {
 
 /* BANNER */
 .carousel-inner {
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 5px auto;
   overflow: auto;
   height: 100vh;
@@ -169,15 +169,29 @@ body {
 
 /* FORMULARIO */
 #formulario {
-  margin: 25px 0 0 450px;
-  padding: 25px;
+  margin: 35px 500px 0 500px;
+  padding: 40px;
   justify-content: center;
+  align-items: center;
+}
+#formulario input,
+textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 2px;
+}
+.acciones input {
+  width: 75px;
+  margin: 8px;
 }
 
 .message {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 /* ICONOS */
